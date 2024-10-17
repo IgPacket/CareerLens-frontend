@@ -1,0 +1,29 @@
+{
+  "name": "careerlens-frontend",
+  "version": "1.0.0",
+  "description": "Frontend server for CareerLens app",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@types/react": "18.3.11",
+    "dotenv-cli": "^7.4.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "test": "next test"
+  },
+  "keywords": [],
+  "author": "Ustinov Igor Vladislavovich",
+  "license": "Apache-2.0"
+}
